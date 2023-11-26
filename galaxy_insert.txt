@@ -1,8 +1,8 @@
 INSERT INTO galaxy (name, galaxy_disk, galaxy_distance_center, galaxy_radius)
 VALUES
-("A1", true, 12.7, 12),
-("A2", true, 12.7, 12),
-("A3", true, 12.7, 12),
-("A4", true, 12.7, 12),
-("A5", true, 12.7, 12),
-("A6", true, 12.7, 12)
+('A1', true, 12.7, 12),
+('A2', true, 12.7, 12),
+('A3', true, 12.7, 12),
+('A4', true, 12.7, 12),
+('A5', true, 12.7, 12),
+('A6', true, 12.7, 12)
