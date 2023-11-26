@@ -1,4 +1,4 @@
-INSERT INTO galaxy (galaxy_id, name, star_brightness, star_mass, star_radius, star_temperature)
+INSERT INTO star (galaxy_id, name, star_brightness, star_mass, star_radius, star_temperature)
 VALUES
 (1, 'A1', 12, 12.7, 12, 12),
 (2, 'A2', 12, 12.7, 12, 12),

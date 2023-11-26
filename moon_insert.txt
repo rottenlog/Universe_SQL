@@ -1,4 +1,4 @@
-INSERT INTO galaxy (planet_id, name, moon_size, moon_distance_planet)
+INSERT INTO moon (planet_id, name, moon_size, moon_distance_planet)
 VALUES
 (1, 'A1', 12, 12),
 (2, 'A2', 12, 12),
