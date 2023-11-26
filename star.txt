@@ -1,7 +1,7 @@
 CREATE TABLE star
 (
 star_id SERIAL PRIMARY KEY,
-galaxy_id INT NOT NULL FOREIGN KEY,
+galaxy_id INT NOT NULL,
 name VARCHAR UNIQUE NOT NULL,
 star_brightness INT NOT NULL,
 star_mass NUMERIC NOT NULL,
