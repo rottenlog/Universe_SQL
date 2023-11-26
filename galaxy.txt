@@ -1,0 +1,8 @@
+CREATE TABLE galaxy
+(
+  galaxy_id SERIAL PRIMARY KEY,
+  name VARCHAR UNIQUE NOT NULL,
+  galaxy_disk BOOLEAN NOT NULL,
+  galaxy_distance_center NUMERIC NOT NULL,
+  galaxy_radius INT NOT NULL
+)

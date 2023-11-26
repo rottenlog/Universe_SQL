@@ -1,0 +1,11 @@
+CREATE TABLE star
+(
+star_id SERIAL PRIMARY KEY,
+galaxy_id INT NOT NULL FOREIGN KEY,
+name VARCHAR UNIQUE NOT NULL,
+star_brightness INT NOT NULL,
+star_mass NUMERIC NOT NULL,
+star_radius INT NOT NULL,
+star_temperature INT NOT NULL,
+FOREIGN KEY (galaxy_id) REFERENCES galaxy (galaxy_id)
+)

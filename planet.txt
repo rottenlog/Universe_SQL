@@ -1,0 +1,10 @@
+CREATE TABLE planet
+(
+planet_id SERIAL PRIMARY KEY,
+star_id INT NOT NULL,
+name VARCHAR UNIQUE NOT NULL,
+planet_size INT NOT NULL,
+planet_oxygen BOOLEAN NOT NULL,
+planet_xxygen_type TEXT NOT NULL,
+FOREIGN KEY (star_id) REFERENCES star (star_id)
+)

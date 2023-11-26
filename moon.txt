@@ -1,0 +1,9 @@
+CREATE TABLE moon
+(
+moon_id SERIAL PRIMARY KEY,
+planet_id INT NOT NULL,
+name VARCHAR UNIQUE NOT NULL,
+moon_size INT NOT NULL,
+moon_distance_planet INT NOT NULL,
+FOREIGN KEY (planet_id) REFERENCES planet (planet_id)
+)
