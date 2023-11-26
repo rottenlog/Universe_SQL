@@ -6,5 +6,5 @@ name VARCHAR UNIQUE NOT NULL,
 five_brightness INT NOT NULL,
 five_mass NUMERIC NOT NULL,
 five_radius INT NOT NULL,
-five_temperature INT NOT NULL,
+five_temperature INT NOT NULL
 )
