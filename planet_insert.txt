@@ -1,0 +1,18 @@
+INSERT INTO planet (star_id, name, planet_size, planet_oxygen, planet_xxygen_type)
+VALUES
+(1, 'A1', 12, true, 'test'),
+(1, 'A2', 12, true, 'test'),
+(2, 'A3', 12, true, 'test'),
+(2, 'A4', 12, true, 'test'),
+(3, 'A5', 12, true, 'test'),
+(3, 'A6', 12, true, 'test'),
+(4, 'A7', 12, true, 'test'),
+(4, 'A8', 12, true, 'test'),
+(5, 'A9', 12, true, 'test'),
+(5, 'A10', 12, true, 'test'),
+(6, 'A11', 12, true, 'test'),
+(6, 'A12', 12, true, 'test'),
+(1, 'A13', 12, true, 'test'),
+(1, 'A14', 12, true, 'test'),
+(1, 'A15', 12, true, 'test'),
+(1, 'A16', 12, true, 'test')
