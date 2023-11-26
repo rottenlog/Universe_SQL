@@ -1,0 +1,10 @@
+CREATE TABLE five
+(
+five_id SERIAL PRIMARY KEY,
+five_id INT NOT NULL,
+name VARCHAR UNIQUE NOT NULL,
+five_brightness INT NOT NULL,
+five_mass NUMERIC NOT NULL,
+five_radius INT NOT NULL,
+five_temperature INT NOT NULL,
+)
